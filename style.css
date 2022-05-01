@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+}
+.heading{
+    font-size: 25px;
+    width: 100%;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 0;
+    color: white;
+}
+
+.note{
+   font-size: 20px;
+}
+
+.volume_div{
+    float : right;
+}
+
+.speed_div{
+    float: left;
+}
+
+#volume_label{
+    font-size: 20px;
+}
+
+#speed_label{
+    font-size: 20px;
+}
+
+#play_button{
+    margin: 20px;
+    font-size: 20px;
+    width: 130px;
+    position: fixed;
+}
+
+canvas{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+
+

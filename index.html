@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    <title>Ai - Dj Web App</title>
+</head>
+
+<body>
+    <h1 class="heading">Ai-Dj Web app <br><span class="note">Note: You can control the volume of the music by moving your left wrist up or down, you can also control the speed of the music by moving right wrist up or down.</span></h1>
+    <div class="volume_div">
+        <img src="disk.gif" class="img-responsive" height="200px" width="200px"><br>
+        <h3 class="btn btn-danger" id="volume_label">Volume</h3>
+    </div>
+
+    <div class="speed_div">
+        <img src="disk.gif" class="img-responsive" height="200px" width="200px"><br>
+        <h3 class="btn btn-danger" id="speed_label">Speed</h3>
+    </div>
+    
+    <button onclick="play()" class="btn btn-success" id="play_button">Play</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
